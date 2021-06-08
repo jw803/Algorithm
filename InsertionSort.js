@@ -19,3 +19,7 @@ function insertSort(a, n) {
         a[j + 1] = value;//插入數據
     }
 }
+
+let a = [1, 5, 2, 8, 9, 3]
+insertSort(a, 6);
+console.log(a);

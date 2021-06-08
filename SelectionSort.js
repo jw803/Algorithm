@@ -21,3 +21,7 @@ function selectSort(a, n) {
     }
 }
 
+let a = [1, 5, 2, 8, 9, 3]
+selectSort(a, 6);
+console.log(a);
+
