@@ -1,7 +1,7 @@
 /**
  * 冒泡排序
  * @param a 待排序陣列
- * @param n 数组长度
+ * @param n 陣列長度
  */
 function bubbleSort(a, n) {
     if (n <= 0) return;

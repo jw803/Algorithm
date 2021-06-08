@@ -1,16 +1,18 @@
 
 /**
- * 选择排序
- * @param a 待排序数组
- * @param n 数组长度
+ * 選擇排序
+ * @param a 待排序陣列
+ * @param n 陣列長度
  */
 function selectSort(a, n) {
     if (n <= 0) return;
     for (var i = 0; i < n; i++) {
         var min = i;
+        // 找到最小值的index
         for (var j = i; j < n; j++) {
             if (a[j] < a[min]) min = j;
         }
+        // 最小值的index和要交換的index一樣的話就不需做位置交換
         if (min != i) {
             var temp = a[i];
             a[i] = a[min];
